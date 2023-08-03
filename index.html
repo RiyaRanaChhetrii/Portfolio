@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS stylessheet -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/60741fc1a2.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <main class="content">
+      <section id="title">
+        <header>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link mr-5" href="#title">Home</a>
+                <a class="nav-item nav-link mr-5" href="#about">About</a>
+                <a class="nav-item nav-link mr-5" href="#service">Services</a>
+                <a class="nav-item nav-link mr-5" href="#contact">Contact</a>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <div class="container-fluid title-container">
+          <div class="home" id="about-me">
+            <div class="row title-box">
+              <div class="col-lg-6 title-para">
+                <h1>
+                  <h3>Hello, It's me <br /></h3>
+                  <h1>Riya Rana Chhetri</h1>
+                  <h3  class="text-writing">And I'm a Frontend Developer.</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestias, magnam. Lorem, ipsum dolor.Molestias, magnam.
+                    Lorem, ipsum dolor.
+                  </p>
+                </h1>
+                <div class="social-icon">
+                  <i class="social-icon fa-brands fa-facebook fa-lg"></i>
+                  <i class="social-icon fa-brands fa-twitter fa-lg"></i>
+                  <i class="social-icon fa-brands fa-instagram fa-lg"></i>
+                  <i class="social-icon fa-solid fa-envelope fa-lg"></i>
+                </div>
+                <button
+                  type="button"
+                  class="btn btn-outline-light btn-lg button"
+                >
+                  Download CV
+                </button>
+              </div>
+              <div class="container col-lg-6 title-image">
+                <img id="myImage" src="riyaimage.png" alt="Image" class="responsive-img animated-img" />
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-me" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <img id="myImage" src="riyaimage.png" alt="Image" class="responsive-img animated-img" />
+
+            </div>
+            <div class="col-lg-6">
+              <h1>About Me</h1>
+              <h2>Frontend Developer</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio perspiciatis dignissimos nihil, itaque ducimus ex
+                veritatis consectetur aperiam placeat asperiores. Quasi saepe
+                sequi temporibus, aliquam, vel quidem repudiandae animi magni
+                sunt cumque perspiciatis. Veritatis cupiditate nobis ex?
+                Architecto, quod dicta ipsum reiciendis deleniti maiores,
+                debitis pariatur eius quaerat, cupiditate voluptatibus?
+              </p>
+              <button type="button" class="btn btn-outline-dark button">
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="service" id="service">
+        <h1>Our Services</h1>
+        <div id="slideshow-container">
+        <div class="container text-center service-container">
+          <div class="row row-container">
+            <div class="col border web-column">
+              <i class="fa-solid fa-code fa-lg"></i>
+              <h2>Web development</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi
+                rem possimus sunt asperiores aut vitae est eveniet impedit quia!
+                Error mollitia unde fuga cupiditate tempore omnis laudantium. Ea
+                porro in tenetur cupiditate quo perferendis sunt eveniet magnam
+                sapiente itaque vel atque, officiis totam illo voluptatem
+                placeat qui deleniti fuga culpa.
+              </p>
+            </div>
+            <div class="col border Graphic-column">
+              <i class="fa-solid fa-paintbrush"></i>
+              <h2>Graphic Designing</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                architecto in, provident dicta suscipit eius? Molestiae,
+                consectetur! Maiores itaque porro consequuntur magni temporibus
+                eum voluptates beatae, officiis vero perspiciatis explicabo.
+                Temporibus beatae molestiae quas consequatur saepe aperiam dolor
+                doloribus. Consectetur consequatur facilis doloremque vero culpa
+                nisi dolor in laboriosam non.
+              </p>
+            </div>
+            <div class="col border digital-column">
+              <i class="fa-solid fa-paintbrush"></i>
+              <h2>Digital Marketing</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis
+                alias itaque eum. Nam facilis harum in. Doloribus ad cum maxime
+                odio illum. At reiciendis eos tenetur id, quasi numquam natus
+                cum illum, obcaecati culpa exercitationem autem, assumenda
+                perferendis error maiores quis dicta harum omnis provident quae
+                fugit amet. Fugit, sed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <section id="contact" class="contact-me">
+        <h1 class="mt-3 mb-4">Contact Me!</h1>
+        <form onsubmit="sendEmail(); reset(); return false;" action="">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Number:</label>
+            <input type="tel" name="phone" id="phone" required />
+          </div>
+
+          <div class="form-group">
+            <label for="text">Email Subject:</label>
+            <input type="text" />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" cols="30" rows="3"></textarea>
+          </div>
+
+          <div class="form-group center-button">
+            <button type="submit" class="btn-lg btn-outline-dark button">
+              Submit
+            </button>
+          </div>
+        </form>
+      </section>
+
+      <footer>
+        <p>&copy; 2023 Riy@. All rights reserved.</p>
+      </footer>
+    </main>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script>
+    function sendEmail(){
+    Email.send({
+        Host : "smtp.gmail.com",
+        Username : "riyana7734@gmail.com",
+        Password : "147@riyana",
+        To : 'np03cs4m210046@heraldcollege.edu.np',
+        From : document.getElementById("email").value,
+        Subject : "New Contact From Enquiry",
+        Body : "Name:" +document.getElementById("name").value
+        + "<br> Email: " + document.getElementById("email").value
+        + "<br> number: " + document.getElementById("number").value
+        + "<br> subject: " + document.getElementById("subject").value
+        + "<br> Message: " + document.getElementById("message").value
+    }).then(
+      message => alert("Message Sent Succesfully")
+    );
+}
+  </script> -->
+  <script src="script.js"></script>
+  </body>
+</html>

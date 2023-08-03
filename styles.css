@@ -1,0 +1,283 @@
+body{
+    font-family:'Ubuntu';
+    width: auto;
+}
+
+h1{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+h2, h3{
+    line-height: 1.5;
+}
+
+/* title section */
+
+#title{
+    background-color: #394867;
+    color: aliceblue;
+    z-index: 1;
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.responsive-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.animated-img {
+    animation: fadeIn 1s;
+}
+
+.social-icon i{
+    font-size: 24px;
+}
+
+.social-icon i:hover{
+    color: #212A3E;
+
+}  
+  
+.container-fluid{
+    padding: 3% 15%;    
+  
+}
+.title-container{
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 40px;
+    margin: 50px;
+}
+
+.title-box{
+    margin-top: 100px;
+}
+
+/* navigation section */
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+    background-color: #212A3E;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.social-icon{
+    margin: 20px 10px;
+    margin-left: 0%;
+}
+.button{
+    border-radius: 50px;
+
+}
+
+/* section about me */
+
+.about-me{
+    background-color: #F1F6F9;
+    padding: 9rem;
+    color: rgb(56, 55, 55);
+    
+}
+
+/* section service */
+
+.service{
+    background-color: #394867;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    margin-bottom: 1;
+}
+
+.service-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    padding: 3rem;
+    color: rgb(56, 55, 55);
+}
+
+.container-fluid{
+    margin-bottom: 0%;
+}
+
+.row-container{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+}
+
+.col{
+      margin-bottom: 20px;
+      padding: 20px;
+      text-align: center;
+      border-radius: 50px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+}
+
+.col:hover {
+    transform: translateY(-7px);
+    transform: scale(1.05);
+  }
+
+.web-column{
+    background-color: #F1F6F9;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 2px solid;
+
+}
+
+.Graphic-column{
+    background-color: #F1F6F9;
+    width: auto;
+    height: auto;
+    border: 2px solid;
+}
+
+.digital-column{
+    background-color: #F1F6F9;
+    width: auto;
+    height: auto;
+    border: 2px solid;
+}
+
+
+/* section contact-me */
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    width: 120px;
+    margin-right: 10px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    flex: 1;
+  }
+  
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #F1F6F9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+.contact-me{
+    background-color: white;
+    width: auto;
+    height: auto;
+    border: 1px solid;
+    padding: 3rem;
+    text-align: center;
+  
+
+}
+
+.button{
+    margin-top: 50px;
+}
+
+.center-button{
+    display: flex;
+    justify-content: center;
+}
+
+/* footer */
+
+footer{
+    text-align: center;
+    background-color: #394867;
+    padding: 2% 15%;
+}
+
+/* contact section */
+
+label {
+    font-weight: bold;
+  }
+
+
+/* To make text-writing */
+
+  .text-writing  {
+    overflow: hidden; /* Ensures the text doesn't overflow the container */
+    white-space: nowrap; /* Prevents line breaks within a sentence */
+    animation: text-write 5s steps(100) infinite;
+    margin: 0;
+    padding: 0;
+  }
+  
+  @keyframes text-write {
+    0% {
+      width: 0; /* Starts with zero width */
+    }
+    100% {
+      width: 100%; /* Ends with full width */
+    }
+  }
+
+  /* To Give movement to the image */
+
+.animated-img {
+  animation: upDown 3s ease-in-out infinite;
+}
+
+@keyframes upDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* To show website section slidely */
+
+#scrollElement {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  #slideshow-container img {
+    display: none;
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  
+  
+  
